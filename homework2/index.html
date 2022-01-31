@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/null.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 3 - Курс Зима 2022</title>
+		<style>
+			.text {
+				color: darkblue;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 style="color:brown;">Стили инлайн Сумматоры: определения, классификация, уравнения, структуры и применение</h1>
+		<p class="text">Основной элементарной операцией, выполняемой над кодами чисел в цифровых устройствах, является арифметическое сложение.</p>
+		<br>
+		<h2>Селектор тега - обращение ко всем указанным тегам на странице</h2>
+		<h3 class="subtitle">Селектор класса - обращение ко всем объектам с указанным классом</h3>
+		<p id="paragraph">Селектор id Сумматор — логический операционный узел, выполняющий арифметическое сложение кодов двух чисел. При арифметическом сложении выполняются и другие дополнительные операции: учёт знаков чисел, выравнивание порядков слагаемых и тому подобное. Указанные операции выполняются в арифметическо-логических устройствах (АЛУ) или процессорных элементах, ядром которых являются сумматоры.</p>
+		<br>
+		<h2>Селектор тега - обращение ко всем указанным тегам на странице</h2>
+		<h3 class="subtitle">Селектор класса - обращение ко всем объектам с указанным классом</h3>
+		<p>Параллельный сумматор в простейшем случае представляет собой n одноразрядных сумматоров, последовательно (от младших разрядов к старшим) соединённых цепями переноса. Однако такая схема сумматора характеризуется сравнительно невысоким быстродействием, так как формирование сигналов суммы и переноса в каждом i-ом разряде производится лишь после того, как поступит сигнал переноса с (i-1)-го разряда. <span>Таким образом, быстродействие сумматора определяется временем распространения сигнала по цепи переноса. Уменьшение этого времени — основная задача при построении параллельных сумматоров.</span></p>
+		<br>
+		<p>Для уменьшения времени распространения сигнала переноса применяют: конструктивные решения, когда используют в цепи переноса наиболее быстродействующие элементы; тщательно выполняют монтаж без длинных проводников и паразитных ёмкостных составляющих нагрузки и (наиболее часто) структурные методы ускорения прохождения сигнала переноса.
+		</p>
+		<h2>Селектор тега - обращение ко всем указанным тегам на странице</h2>
+		<h3 class="subtitle">Селектор класса - обращение ко всем объектам с указанным классом</h3>
+		<br>
+		<p>
+			Имена классов записывают: латиницей, все в нижнем регистре, если имя класса состоит из 2х и более слов, то между словами ставится дефис.
+		</p>
+		<br>
+		<h3>Приоритетность</h3>
+		<br>
+		<p>Чем сильнее уточнение, тем приоритетней это обращение!</p>
+		<br>
+		<ul>
+			<li>
+				<p>1. Приоритетность, при равнозначных селекторах. Приоритетней будет та запись, которая ниже.</p>
+				<br>
+				<div class="equivalence">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam voluptates dignissimos error, aut veniam nobis magnam dolorum quas neque rerum deleniti animi iste! Alias placeat mollitia nobis! Dolorem, harum. Et?</div>
+				<br>
+			</li>
+			<li>
+				<p>2. Селектор класса приоритетней чем селектор тега. Потому что обращаясь по классу мы уточняем к чему именно мы обращаемся.
+				</p>
+				<br>
+				<h4 class="tag">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel alias soluta eligendi similique totam maiores blanditiis corporis veniam odio quae harum ab animi quos qui, ut atque. Totam, vitae. Alias!</h4>
+				<br>
+			</li>
+			<li>
+				<p>3. Селектор ID - самый приоритетный. На странице не может быть два одинаковых id, то есть мы обращаемся определенно к какому-то одному объекту, поэтому id имеет самую высокую приоритетность.
+				</p>
+				<br>
+				<p class="tag2" id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, rem quam placeat molestiae deleniti eveniet culpa fuga minus consequuntur ab repellat corrupti doloribus minima optio iusto. Error vero laboriosam accusamus?</p>
+				<br>
+			</li>
+			<li>
+				<p>
+					4. Уточнение обращения. Обращение и по тегу и по классу. Ищет объект который имеет указанный и тег и класс. И будет приоритетней чем только по классу
+				</p>
+				<br>
+				<p class="tag3">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia optio facilis provident autem modi laborum, deserunt, expedita impedit blanditiis minus adipisci quam voluptatum facere rem alias possimus doloribus dolores nesciunt.
+				</p>
+				<br>
+			</li>
+			<li>
+				<p>
+					5. Комбинация селекторов класса. Обращение по одному классу и по другому классу элемента (Данное обращение приоритетнее чем предыдущее)
+				</p>
+				<br>
+				<p class="tag4 tag5">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempore molestias beatae, quia maiores a fugiat alias quod, id porro reprehenderit officia ab accusantium autem vero impedit magni modi maxime.
+				</p>
+				<br>
+			</li>
+		</ul>
+		<h3>Вложенность</h3>
+		<br>
+		<p>
+			Чтобы явно обратиться к объекту внутри какого-то другого объекта необходимо между селекторами поставить пробел.
+		</p>
+		<br>
+		<div class="nesting-div">
+			<p class="nesting-p">
+				тег тег Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore nostrum animi impedit obcaecati totam enim, minus error quaerat perferendis quam adipisci dolor, eum laborum ratione odio esse, accusamus aliquam.
+			</p>
+		</div>
+		<p class="nesting-p">
+			тег тег Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore nostrum animi impedit obcaecati totam enim, minus error quaerat perferendis quam adipisci dolor, eum laborum ratione odio esse, accusamus aliquam.
+		</p>
+		<br>
+		<div class="nesting-div2">
+			<h5 class="nesting-h">
+				тег класс или класс тег Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore nostrum animi impedit obcaecati totam enim, minus error quaerat perferendis quam adipisci dolor, eum laborum ratione odio esse, accusamus aliquam.
+			</h5>
+		</div>
+		<h5 class="nesting-h">
+			тег класс или класс тег Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore nostrum animi impedit obcaecati totam enim, minus error quaerat perferendis quam adipisci dolor, eum laborum ratione odio esse, accusamus aliquam.
+		</h5>
+		<br>
+		<div class="nesting-div3">
+			<h5 class="nesting-h2">
+				класс класс Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore nostrum animi impedit obcaecati totam enim, minus error quaerat perferendis quam adipisci dolor, eum laborum ratione odio esse, accusamus aliquam.
+			</h5>
+		</div>
+		<h5 class="nesting-h2">
+			класс класс тег Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore nostrum animi impedit obcaecati totam enim, minus error quaerat perferendis quam adipisci dolor, eum laborum ratione odio esse, accusamus aliquam.
+		</h5>
+		<br>
+		<div>
+			<p>Приоритетность ранее использованных селекторов</p>
+			<div class="priority-div">
+				<span id="priority" class="priority-span spann">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam doloremque ut odit sed perferendis, ad tempora enim totam ex optio libero, quod rerum ab sequi incidunt accusantium iste possimus!</span>
+			</div>
+		</div>
+		<br>
+		<p>Какая таблица приоритетности селекторов у меня получилась</p>
+		<br>
+		<p>
+			#id {
+			}
+			<br>
+			.класс .класс = .класс.класс
+			<br>
+			Тег .класс = .класс тег = тег.класс
+			<br>
+			.класс
+			<br>
+			Тег тег
+			<br>
+			Тег
+		</p>
+		<br>
+		<h2>Селекторы атрибутов</h2>
+		<br>
+		<p title="some text">
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate unde minima illo earum officia modi, pariatur, dicta soluta cupiditate, similique dignissimos cum aspernatur molestiae qui incidunt optio expedita debitis laboriosam.
+		</p>
+		<br>
+		<p class="selector__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum molestiae iste laborum aliquam incidunt beatae velit quisquam, modi, sequi dolor adipisci iusto eveniet tenetur, explicabo in veritatis maiores nam.
+		</p>
+		<br>
+		<p class="another__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum molestiae iste laborum aliquam incidunt beatae velit quisquam, modi, sequi dolor adipisci iusto eveniet tenetur, explicabo in veritatis maiores nam.
+		</p>
+		<br>
+		<h2>Комплексные селекторы</h2>
+		<br>
+		<h3>Перечисление</h3>
+		<br>
+		<p class="listing2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi alias exercitationem earum adipisci facilis illo aliquam. Excepturi cupiditate, veritatis pariatur ducimus tempora numquam officia similique, earum sit reprehenderit labore.
+		</p>
+		<br>
+		<p class="listing1">
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi distinctio, aspernatur incidunt optio aliquid exercitationem reiciendis debitis est! Quo, amet cumque? Repellat animi incidunt iusto molestiae error porro corrupti non!
+		</p>
+		<br>
+		<div class="insert">
+			<h5>Lorem, ipsum dolor.</h5>
+			<div>
+				<h5>Lorem, ipsum dolor.</h5>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div>
+			<h6 class="next">lorem</h6>
+			<h6>lorem</h6>
+			<h6>lorem</h6>
+		</div>
+		<br>
+		<div>
+			<h6 class="all-next">Lorem, ipsum dolor.</h6>
+			<h6>Lorem, ipsum dolor.</h6>
+			<h6>Lorem, ipsum dolor.</h6>
+		</div>
+		<br>
+		<h3>Селектор всего и вся, *</h3>
+		<p>Имеет самый маленкий приоритет</p>
+	</body>
+</html>
