@@ -1,0 +1,133 @@
+h2 {
+	color: blueviolet;
+}
+
+.subtitle {
+	color: mediumaquamarine;
+}
+
+#paragraph {
+	color: olive;
+}
+
+.equivalence {
+	color: crimson;
+}
+
+.equivalence {
+	color: darkblue;
+}
+
+.tag {
+	color: darkgreen;
+}
+
+h4 {
+	color: darkgoldenrod;
+}
+
+#text {
+	color: darkviolet;
+}
+
+.tag2 {
+	color: darkkhaki;
+}
+
+p.tag3 {
+	color: deepskyblue;
+}
+
+.tag3 {
+	color: deeppink;
+}
+
+.tag4.tag5 {
+	color: goldenrod;
+}
+
+p.tag4 {
+	color: firebrick;
+}
+
+div p {
+	color: green;
+}
+
+div .nesting-h {
+	color: indigo;
+}
+
+.nesting-div3 .nesting-h2 {
+	color: lightcoral;
+}
+
+/* ======Тест приоритетности======== */
+
+#priority {
+	color: red;
+}
+
+.priority-div .priority-span {
+	color: orangered;
+}
+
+.priority-span.spann {
+	color: rebeccapurple;
+}
+
+.priority-div span {
+	color: navy;
+}
+
+div .priority-span {
+	color: mediumvioletred;
+}
+
+span.priority-span{
+	color: powderblue;
+}
+
+.priority-span {
+	color: mediumpurple;
+}
+
+div span {
+	color: maroon;
+}
+
+span {
+	color: limegreen;
+}
+
+/* =================== */
+
+[title="some text"] {
+	color: salmon;
+}
+
+[class*="__text"] {
+	color: springgreen;
+}
+
+/* ================== */
+
+.listing2, .listing1 {
+	color: teal;
+}
+
+.insert > h5 {
+	color: violet;
+}
+
+.next + h6 {
+	color: cyan;
+}
+
+.all-next ~ h6 {
+	color: darkblue;
+}
+
+* {
+	color: darkorange;
+}
