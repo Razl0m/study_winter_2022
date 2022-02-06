@@ -1,0 +1,159 @@
+/* &display=swap */
+
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: 'Piazzolla';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('../fonts/piazzolla-v16-latin_cyrillic-regular.woff2') format('woff2'),
+        url('../fonts/piazzolla-v16-latin_cyrillic-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''), url('../fonts/piazzolla-v16-latin_cyrillic-700.woff2') format('woff2'),
+        url('../fonts/piazzolla-v16-latin_cyrillic-700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''), url('../fonts/piazzolla-v16-latin_cyrillic-900.woff2') format('woff2'),
+        url('../fonts/piazzolla-v16-latin_cyrillic-900.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''), url('../fonts/piazzolla-v16-latin_cyrillic-italic.woff2') format('woff2'),
+        url('../fonts/piazzolla-v16-latin_cyrillic-italic.woff') format('woff');
+}
+
+a {
+    color: #0d3672;
+}
+
+.topic {
+    font-size: 48px;
+    text-align: center;
+    font-family: Piazzolla, serif;
+}
+
+.link-connect {
+    font-family: Comforter, cursive;
+}
+
+.import-connect {
+    font-family: "Roboto Mono", monospace;
+}
+
+.local-connect-regular {
+    font-family: Piazzolla, serif;
+}
+
+.local-connect-bold {
+    font-family: Piazzolla, serif;
+    font-weight: 700;
+}
+
+.local-connect-black {
+    font-family: Piazzolla, serif;
+    font-weight: 900;
+}
+
+.local-connect-italic {
+    font-family: Piazzolla, serif;
+    font-style: italic;
+}
+
+.font-size {
+    font-size: 28px;
+}
+
+.font-style {
+    font-style: oblique;
+}
+
+.font-weight {
+    font-weight: 900;
+}
+
+.color {
+    color: rgba(140, 19, 85, 0.5);
+}
+
+.text-align {
+    text-align: center;
+}
+
+.text-align-p {
+    text-align: right;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
+
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
+
+.text-decoration-overline {
+    text-decoration: overline;
+}
+
+.text-shadow {
+    text-shadow: 5px 5px 5px #f03e3e, -5px -5px 5px #0d3672;
+}
+
+.letter-spacing {
+    letter-spacing: 5px;
+}
+
+.line-height {
+    line-height: 2;
+}
+
+.text-indent {
+    text-indent: 20px;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.white-space {
+    white-space: nowrap;
+}
+
+.word-spacing {
+    word-spacing: 10px;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    color: #424551;
+    line-height: 1.6;
+}
+
+.title {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 1.3;
+    color: #1E212C;
+}
+
+.quote,
+.important {
+    color: #1E212C;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 700;
+}
