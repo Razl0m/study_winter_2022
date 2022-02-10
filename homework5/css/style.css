@@ -1,0 +1,260 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+	font-family: Lato, sans-serif;
+	line-height: 1.6;
+	color: #424551;
+}
+
+header {
+	margin: 0px 0px 50px 0px;
+}
+
+h2 {
+	font-size: 38px;
+	font-weight: 700;
+	margin: 0px 0px 30px 0px;
+}
+
+.topic {
+	font-size: 48px;
+	font-weight: 700;
+	margin: 0px 0px 50px 0px;
+}
+
+.block {
+	margin: 0px 0px 50px;
+}
+
+.menu-li {
+	margin: 0px 0px 15px 0px;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 15px;
+}
+
+.padding-1 {
+	padding-top: 50px;
+}
+
+.padding-2 {
+	padding-right: 100px;
+}
+
+.padding-3 {
+	padding-bottom: 50px;
+}
+
+.padding-4 {
+	padding-left: 50px;
+}
+
+.padding-5 {
+	padding: 50px 25px 30px 40px;
+}
+
+.padding-6 {
+	padding: 50px 60px;
+}
+
+.padding-7 {
+	padding: 35px 45px 50px;
+}
+
+.padding-8 {
+	padding: 55px;
+}
+
+.padding-9 {
+	padding: 10%;
+}
+
+.margin-1 {
+	margin-top: 60px;
+}
+
+.margin-2 {
+	margin-right: 100px;
+}
+
+.margin-3 {
+	margin-bottom: 25px;
+}
+
+.margin-4 {
+	margin-left: 35px;
+}
+
+.margin-5 {
+	margin: 10px 20px 30px 40px;
+}
+
+.margin-6 {
+	margin: 50px 30px;
+}
+
+.margin-7 {
+	margin: 60px 20px 10px;
+}
+
+.margin-8 {
+	margin: 20px;
+}
+
+.margin-9 {
+	margin: 10%;
+}
+
+.width-1 {
+	width: 600px;
+}
+
+.width-2 {
+	max-width: 700px;
+}
+
+.width-3 {
+	min-width: 500px;
+}
+
+.width-4 {
+	width: 70%;
+}
+
+.height-1 {
+	height: 200px;
+}
+
+.height-2 {
+	max-height: 100px;
+}
+
+.height-3 {
+	min-height: 200px;
+}
+
+.nuances-1 {
+	max-width: 500px;
+	margin: 0 auto 20px;
+}
+
+.nuances-2 {
+	margin: 10px 0px 0px 0px;
+}
+
+.nuances-3 {
+	box-sizing: content-box;
+	width: 700px;
+	margin: 0px 50px 0px 0px;
+	padding: 0px 0px 0px 50px;
+}
+
+.nuances-4 {
+	box-sizing: padding-box;
+	width: 700px;
+	margin: 0px 50px 0px 0px;
+	padding: 0px 0px 0px 50px;
+}
+
+.nuances-5 {
+	width: 700px;
+	margin: 0px 50px 0px 0px;
+	padding: 0px 0px 0px 50px;
+}
+
+.nuances-6 {
+	width: 100%;
+	margin: 10px 10px 10px 150px;
+}
+
+.overflow-1 {
+	height: 100px;
+	overflow: hidden;
+}
+
+.overflow-2 {
+	height: 100px;
+	overflow: auto;
+}
+
+.overflow-3 {
+	height: 100px;
+	overflow: scroll;
+}
+
+.display-1 {
+	display: block;
+	width: 600px;
+	margin: 0px 0px 30px 0px;
+}
+
+.display-2 {
+	display: inline;
+}
+
+.display-3 {
+	display: inline-block;
+	width: 300px;
+}
+
+.display-4 {
+	display: none;
+}
+
+.container {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	margin: 0px 0px 92px 0px;
+	color: #1E212C;
+}
+
+.img {
+	margin: 0px 0px 60px 0px;
+}
+
+.important {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 0px 0px 24px 0px;
+	color: #1E212C;
+}
+
+.list-li {
+	margin: 0px 0px 4px 0px
+}
+
+.list {
+	margin: 0px 0px 24px 0px;
+}
+
+.paragraph-1 {
+	margin: 0px 0px 26px 0px;
+}
+
+.paragraph-2 {
+	margin: 0px 0px 48px 0px;
+}
+
+.paragraph-3 {
+	margin: 0px 0px 24px 0px;
+}
+
+.quote {
+	color: #1E212C;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 0px 0px 48px 0px;
+}
