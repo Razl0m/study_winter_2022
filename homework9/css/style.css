@@ -1,0 +1,277 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+	font-family: Lato, sans-serif;
+	line-height: 1.6;
+	color: #424551;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.back {
+	color: blue;
+}
+
+.container-1 {
+	max-width: 810px;
+	margin: 0 auto 20px;
+}
+
+.title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	margin: 0px 0px 26px 0px;
+	color: #1E212C;
+}
+
+.img {
+	margin: 40px 0px 60px 0px;
+}
+
+.important {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 0px 0px 24px 0px;
+	color: #1E212C;
+}
+
+.list-li-3 {
+	margin: 0px 0px 4px 0px;
+	padding: 0px 0px 0px 32px;
+	background: url("../img/li.svg") 0 5px / auto no-repeat;
+}
+
+.list-3 {
+	margin: 0px 0px 24px 0px;
+}
+
+.paragraph-1 {
+	margin: 0px 0px 26px 0px;
+}
+
+.paragraph-2 {
+	margin: 0px 0px 48px 0px;
+}
+
+.paragraph-3 {
+	margin: 0px 0px 24px 0px;
+}
+
+.quote {
+	color: #1E212C;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 0px 0px 48px 0px;
+	padding: 0px 0px 0px 58px;
+	background: url("../img/quote.svg") 0 0 / auto no-repeat, url("../img/quote.svg") 18px 0 / auto no-repeat;
+}
+
+.date,
+.time-to-read {
+	display: inline-block;
+	color: #787A80;
+	padding: 0px 0px 0px 24px;
+}
+
+.date {
+	margin: 0px 24px 0px 0px;
+	background: url("../img/calendar.svg") 0 5px / auto no-repeat;
+}
+
+.time-to-read {
+	background: url("../img/clock.svg") 0 5px / auto no-repeat;
+}
+
+.share {
+	font-weight: 700;
+	display: inline-block;
+	margin: 0px 0px 0px 400px;
+}
+
+.share-bottom {
+	font-weight: 700;
+	display: inline-block;
+	margin: 63px 0px 0px 0px;
+
+}
+
+.social {
+	vertical-align: middle;
+	margin: 0px 0px 0px 12px;
+}
+
+.line-1 {
+	margin: 0 auto;
+	height: 50px;
+	width: 50px;
+	background: cornsilk;
+}
+
+.line-1:hover + .line-2 {
+	visibility: visible;
+}
+
+.line-2:hover {
+	visibility: visible;
+}
+
+.line-2:hover + .line-3 {
+	visibility: visible;
+}
+
+.line-3:hover {
+	visibility: visible;
+}
+
+.line-3:hover + .line-4 {
+	visibility: visible;
+}
+
+.line-4:hover {
+	visibility: visible;
+}
+
+.line-4:hover + .line-5 {
+	visibility: visible;
+}
+
+.line-5:hover {
+	visibility: visible;
+}
+
+.line-5:hover + .line-6 {
+	visibility: visible;
+}
+
+.line-6:hover {
+	visibility: visible;
+}
+
+.line-6:hover + .line-7 {
+	visibility: visible;
+}
+
+.line-7:hover {
+	visibility: visible;
+}
+
+.line-7:hover + .line-8 {
+	visibility: visible;
+}
+
+.line-8:hover {
+	visibility: visible;
+}
+
+.line-8:hover + .line-9 {
+	visibility: visible;
+}
+
+.line-9:hover {
+	visibility: visible;
+}
+
+.line-9:hover + .line-10 {
+	visibility: visible;
+}
+
+.line-10:hover {
+	visibility: visible;
+}
+
+.line-10:hover + .gift {
+	visibility: visible;
+}
+
+.gift:hover {
+	visibility: visible;
+}
+
+.line-2 {
+	visibility: hidden;
+	margin: 0px 0px 0px 380px;
+	height: 45px;
+	width: 200px;
+	background: cornsilk;
+}
+.line-3 {
+	visibility: hidden;
+	height: 150px;
+	width: 40px;
+	margin: 0px 0px 0px 540px;
+	background: cornsilk;
+}
+.line-4 {
+	visibility: hidden;
+	height: 35px;
+	width: 270px;
+	margin: 0px 0px 0px 310px;
+	background: cornsilk;
+}
+.line-5 {
+	visibility: hidden;
+	height: 270px;
+	width: 30px;
+	margin: 0px 0px 0px 310px;
+	background: cornsilk;
+}
+.line-6 {
+	visibility: hidden;
+	height: 25px;
+	width: 400px;
+	margin: 0px 0px 0px 310px;
+	background: cornsilk;
+}
+.line-7 {
+	visibility: hidden;
+	height: 400px;
+	width: 20px;
+	margin: 0px 0px 0px 690px;
+	background: cornsilk;
+}
+.line-8 {
+	visibility: hidden;
+	height: 15px;
+	width: 600px;
+	margin: 0px 0px 0px 110px;
+	background: cornsilk;
+}
+.line-9 {
+	visibility: hidden;
+	height: 100px;
+	width: 10px;
+	margin: 0px 0px 0px 110px;
+	background: cornsilk;
+}
+.line-10 {
+	visibility: hidden;
+	height: 50px;
+	width: 50px;
+	margin: 0px 0px 0px 110px;
+	background: red;
+}
+
+.gift {
+	visibility: hidden;
+}
+
+.game {
+	margin: 0px auto 100px;
+	max-width: 810px;
+}
+
+.game p {
+	font-size: 24px;
+	text-align: center;
+}
+
+.img-gift {
+	max-width: 810px;
+}
