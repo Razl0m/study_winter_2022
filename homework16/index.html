@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">я шапка</header>
+		<main class="main">
+			<section class="main__appointment appointment">
+				<div class="appointment__container">
+					<div class="appointment__row">
+						<div class="appointment__item form">
+							<div class="form__body">
+								<h3 class="form__title">Make an appointment</h3>
+								<form action="#" class="form__questionnaire">
+									<div class="form__items">
+										<input placeholder="Name" class="form__item" type="text">
+										<input placeholder="Email" class="form__item" type="email">
+										<input placeholder="Phone number" class="form__item" type="tel">
+										<select class="form__item" name="select">
+											<option value="1">Пункт №1</option>
+											<option value="2">Пункт №2</option>
+											<option value="3">Пункт №3</option>
+											<option value="4">Пункт №4</option>
+										</select>
+										<textarea placeholder="Tell us about your puppers include his/her name" class="form__item form__item_textarea"></textarea>
+									</div>
+									<button type="submit" class="form__button">Make an Appointment</button>
+								</form>
+							</div>
+						</div>
+						<div class="appointment__item stat">
+							<h3 class="stat__title">Maxime placeat facere possimus omnis</h3>
+							<p class="stat__number">5,700+</p>
+							<p class="stat__subtitle">customers served</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__cart cart">
+				<div class="cart__container">
+					<div class="cart__summary summary">
+						<h2 class="summary__title">Summary</h2>
+						<div class="summary__estimate estimate">
+							<h3 class="estimate__title">Estimate Shipping and Tax</h3>
+							<form action="#" class="estimate__form form-estimate">
+								<div class="form-estimate__destination destination">
+									<p class="destination__subtitle">Enter your destination to get a shipping estimate.</p>
+									<label for="country" class="destination__label">Country</label>
+									<select id="country" class="destination__item destination__item_select" name="country">
+										<option value="Australia">Australia</option>
+										<option value="Russia">Russia</option>
+										<option value="China">China</option>
+										<option value="Japan">Japan</option>
+									</select>
+									<label for="country" class="destination__label">City</label>
+									<select id="country" class="destination__item destination__item_select" name="country">
+										<option value="Australia">Australia</option>
+										<option value="Russia">Russia</option>
+										<option value="China">China</option>
+										<option value="Japan">Japan</option>
+									</select>
+									<label for="state" class="destination__label">State/Province</label>
+									<input id="state" name="state" type="text" class="destination__item">
+									<label for="zip" class="destination__label">Zip/Postal Code</label>
+									<input id="zip" name="zip" type="text" class="destination__item">
+									<label for="zip" class="destination__label">Zip/Postal Code</label>
+									<input id="zip" name="zip" type="text" class="destination__item">
+								</div>
+								<div class="form-estimate__rates rates">
+									<h4 class="rates__title">Standard Rate</h4>
+									<div class="rates__radio">
+										<input id="rate1" name="delivery" class="rates__input" type="radio">
+										<label for="rate1" class="rates__label">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</label>
+									</div>
+									<div class="rates__radio">
+										<input id="rate2" name="delivery" class="rates__input" type="radio">
+										<label for="rate2" class="rates__label">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</label>
+									</div>
+									<div class="rates__radio">
+										<input id="rate3" name="delivery" class="rates__input" type="radio">
+										<label for="rate3" class="rates__label">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</label>
+									</div>
+									<div class="rates__radio">
+										<input id="rate4" name="delivery" class="rates__input" type="radio">
+										<label for="rate4" class="rates__label">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</label>
+									</div>
+								</div>
+								<div class="form-estimate__pickup pickup">
+									<h4 class="pickup__title">Pickup from store</h4>
+									<div class="pickup__radio">
+										<input id="shop1" name="delivery" class="pickup__input" type="radio">
+										<label for="shop1" class="pickup__label">1234 Street Adress City Address, 1234 $5.00</label>
+									</div>
+									<div class="pickup__radio">
+										<input id="shop2" name="delivery" class="pickup__input" type="radio">
+										<label for="shop2" class="pickup__label">1234 Street Adress City Address, 1234 $7.00</label>
+									</div>
+									<div class="pickup__radio">
+										<input id="shop3" name="delivery" class="pickup__input" type="radio">
+										<label for="shop3" class="pickup__label">1234 Street Adress City Address, 1234 $10.00</label>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="summary__discount discount">
+							<h3 class="discount__title">Apply Discount Code</h3>
+							<form action="#" class="discount__form">
+								<label for="discount" class="discount__label">Enter Discount code</label>
+								<input id="discount" placeholder="Enter Discount code" class="discount__item" type="text">
+								<button type="submit" class="discount__button">Apply Discount</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__login login">
+				<div class="login__container">
+					<h1 class="login__title">Customer Login</h1>
+					<div class="login__body body-login">
+						<h2 class="body-login__title">Registered Customers</h2>
+						<div class="body-login__subtitle">If you have an account, sign in with your email address.</div>
+						<form class="body-login__form form-login">
+							<div class="form-login__inputs">
+								<div class="form-login__item">
+									<label class="form-login__label form-login__label_required">Email</label>
+									<input required class="form-login__input" type="email">
+								</div>
+								<div class="form-login__item">
+									<label class="form-login__label form-login__label_required">Password</label>
+									<input required class="form-login__input" type="password">
+								</div>
+							</div>
+							<div class="form-login__buttons">
+								<button class="form-login__submit" type="submit">Sign In</button>
+								<a href="#" class="form-login__forgot">Forgot Your Password?</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">я футер</footer>
+	</div>
+</body>
+
+</html>
