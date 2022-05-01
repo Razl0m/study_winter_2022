@@ -664,8 +664,7 @@ body {
 .main__video {}
 
 .video {
-	background-image: url("../img/Blob3.png") left top/ 473px no-repeat, url("../img/Circles.svg") left bottom/ auto no-repeat;
-	background-color: #29C3BE;
+	background: #29C3BE;
 }
 
 .video__container {
